@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "remod",
   "version": "0.0.1",
-  "permissions":["tabs", "activeTab"],
+  "permissions":["tabs", "activeTab", "storage", "webNavigation"],
   "action": {
       "default_title": "Remod pop-up", 
       "default_popup": "popup.html",
@@ -10,6 +10,19 @@
           "16": "logo16.png"
       }
   },
+  "background":{
+    "service_worker": "static/js/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "js": ["static/js/content.js"],
+      "css": ["static/css/content.css"]
+
+    }
+  ],
   "icons": {
     "16": "logo192.png",  
     "48": "logo192.png",

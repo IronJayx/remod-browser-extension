@@ -1,0 +1,117 @@
+.Content {
+    all: revert;
+    width: 66% !important;
+    background: radial-gradient(
+        farthest-corner at 40px 40px,#f35 0%,#43e 100%) !important;
+    border-radius: 8pt !important;
+    padding: 0.5rem !important;
+    overflow-wrap: break-word !important;
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content: center !important;
+    margin-left: auto !important;
+    font-family: serif !important;
+    font-size: 16px !important;
+    --remodmarker:remod-native;
+}
+
+.CommentRow {
+    display: flex;
+    font-style: transparent;
+}
+
+.UserIcon{
+    margin-top: auto;
+    border-radius: 50%;
+    min-width: 25px;
+    min-height: 25px;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.Comment {
+    border-radius: 10pt;
+    min-width: 30%;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,.1);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    color: rgb(0, 0, 0) !important;
+}
+
+.Author {
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(0, 0, 0) !important;
+}
+
+.CommentText {
+    font-style: normal !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400 !important;
+}
+
+.InputArea {
+    font-style: normal !important;
+    display: flex;
+    padding: 0.5rem;
+    background: transparent;
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 0.05em;
+    border-color: #1e1e1e !important;
+}
+
+.InputText{
+    flex-grow: 100;
+    overflow-y: hidden;
+    background: inherit;
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400 !important;
+    height: 28px;
+}
+
+.InputButton{
+    margin-left: auto;
+    background: inherit;
+    border: none;
+    float: bottom right;
+    color: #f35 !important;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+textarea::placeholder {
+    color: #1e1e1e !important;
+    font-weight: 400 !important;
+  }
+
+.Comment, .InputArea {
+    margin: 0.5rem;
+}
+
+
+.mini-left-text{
+    float:left;
+}
+
+.mini-right-text{
+    float:right;
+}
+
+.mini-left-text, .mini-right-text{
+    margin-top: 0.3rem;
+    font-weight: 400;
+    color: #1e1e1e !important;
+    padding-bottom: 0.3rem;
+    font-size: 12px;    
+    background: transparent;
+    border: none;
+}
