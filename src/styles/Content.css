@@ -2,15 +2,15 @@
     all: revert;
     width: 66% !important;
     background: radial-gradient(
-        farthest-corner at 40px 40px,#f35 0%,#43e 100%) !important;
+        farthest-corner at 40px 40px,rgb(156, 196, 216),rgb(127, 192, 220)) !important;
     border-radius: 8pt !important;
-    padding: 0.5rem !important;
+    padding: 1rem !important;
     overflow-wrap: break-word !important;
     display:flex !important;
     flex-direction:column !important;
     justify-content: center !important;
     margin-left: auto !important;
-    font-family: serif !important;
+    font-family: sans-serif !important;
     font-size: 16px !important;
     --remodmarker:remod-native;
 }
@@ -42,9 +42,9 @@
 }
 
 .Author {
-    font-style: oblique;
     font-weight: bold;
     color: rgb(0, 0, 0) !important;
+    font-size: 14px;
 }
 
 .CommentText {
@@ -61,7 +61,7 @@
     border-radius: inherit;
     border-style: solid;
     border-width: 0.05em;
-    border-color: #1e1e1e !important;
+    border-color: rgb(71, 153, 188) !important;
 }
 
 .InputText{
@@ -83,13 +83,14 @@
     background: inherit;
     border: none;
     float: bottom right;
-    color: #f35 !important;
+    color: rgb(71, 153, 188) !important;
     font-size: inherit;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 textarea::placeholder {
-    color: #1e1e1e !important;
+    color: rgb(71, 153, 188) !important;
     font-weight: 400 !important;
   }
 

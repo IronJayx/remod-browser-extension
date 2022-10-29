@@ -1,20 +1,19 @@
 body{
     margin:0px !important;
     background: transparent;
+    font-family: sans-serif !important;
 }
 
 .Popup {
     min-width: 300px;
     background: radial-gradient(
-        farthest-corner at 40px 40px,#43e 0%,rgb(26, 20, 92) 100%);
-    border-radius:8px;
+        farthest-corner at 40px 40px,rgb(156, 196, 216),rgb(127, 192, 220)) !important;    border-radius:8px;
     padding: 0.5rem;
     overflow-wrap: break-word;
     display:flex;
     flex-direction:column;
     justify-content: center;
     margin-left: auto;
-    font-family: helvetica;
     font-size: 16px;
 }
 
@@ -32,7 +31,8 @@ body{
     border-radius: inherit;
     border-style: solid;
     border-width: 0.05em;
-    border-color: black;
+    border-width: 0.05em;
+    border-color: rgb(71, 153, 188) !important;
     padding: 0.5rem;
     margin: 0.3rem;
     width: 90%;
@@ -53,7 +53,7 @@ body{
 }
 
 .InputText::placeholder {
-    color: #1e1e1e;
+    color: rgb(71, 153, 188) !important;
   }
 
 
@@ -74,11 +74,11 @@ button{
 }
 
 .LoginButton{
-    background: rgb(68, 51, 238, 0.8);
+    background-color: rgb(255, 255, 51, .8);
 }
 
 .RegisterButton{
-    background-color: rgb(8, 150, 17, 0.8);
+    background: rgb(68, 51, 238, 0.8);
     margin-bottom: 0.5rem;
 }
 
@@ -88,8 +88,8 @@ button{
     margin-left: auto;
     margin-right:auto;
     font-size: 14px;
-    border-top: 1px solid #f3b3ba;
-    color: #f3b3ba;
+    border-top: 1px solid rgb(71, 153, 188) !important;
+    color: rgb(71, 153, 188) !important;
     width: 90%;
     text-align: center;
 }
@@ -151,11 +151,11 @@ transition: .4s;
 }
 
 input:checked + .slider {
-background-color: #FF6E7D;
+background-color: rgb(255, 255, 51);
 }
 
 input:focus + .slider {
-box-shadow: 0 0 1px #FF6E7D;
+box-shadow: 0 0 1px rgb(255, 255, 51);
 }
 
 input:checked + .slider:before {

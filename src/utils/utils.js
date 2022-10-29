@@ -31,8 +31,8 @@ export const USER_SETTINGS_KEY = "remod.settings.state"
  * Server IP and main routes used to fetch
  */
 
-const SERVERIP = "http://192.168.1.20"
-const PORT = ":3000/"
+const SERVERIP = "http://13.38.128.167"
+const PORT = ":5000/api/"
 export const routes = {
     fetchByUrl: SERVERIP + PORT + "comments/getByUrl/",
     postNewCom: SERVERIP + PORT + "comments/postNew/",
