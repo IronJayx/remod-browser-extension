@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
   "name": "remod",
-  "version": "0.0.1",
-  "permissions":["tabs", "activeTab", "storage", "webNavigation"],
+  "version": "0.0.2",
+  "description": "Engage in social interactions anywhere on the web... with anyone !",
+  "permissions":["tabs", "storage", "webNavigation"],
   "action": {
       "default_title": "Remod pop-up", 
       "default_popup": "popup.html",
