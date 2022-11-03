@@ -1,7 +1,7 @@
 # Remod [BETA]
 Engage in social interactions anywhere on the web... with anyone !
 
-<img src="https://imgur.com/bBgmltf.jpg" width="20%"></img> <img src="https://imgur.com/i4RRsuD.jpg" width="20%"></img> <img src="https://imgur.com/ZXyNCKG.jpg" width="20%"></img> <img src="https://imgur.com/QiriaLY.jpg" width="20%"></img> <img src="https://imgur.com/jv1GYyi.jpg" width="20%"></img> 
+<img src="https://imgur.com/bBgmltf.jpg" width="15%"></img> <img src="https://imgur.com/i4RRsuD.jpg" width="15%"></img> <img src="https://imgur.com/ZXyNCKG.jpg" width="15%"></img> <img src="https://imgur.com/QiriaLY.jpg" width="15%"></img> <img src="https://imgur.com/jv1GYyi.jpg" width="15%"></img> 
 
 
 ## Project
