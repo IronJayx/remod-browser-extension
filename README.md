@@ -1,7 +1,8 @@
 # Remod [BETA]
 Engage in social interactions anywhere on the web... with anyone !
 
-![alt text](https://imgur.com/jv1GYyi.jpg)
+<img src="https://imgur.com/bBgmltf.jpg" width="20%"></img> <img src="https://imgur.com/i4RRsuD.jpg" width="20%"></img> <img src="https://imgur.com/ZXyNCKG.jpg" width="20%"></img> <img src="https://imgur.com/QiriaLY.jpg" width="20%"></img> <img src="https://imgur.com/jv1GYyi.jpg" width="20%"></img> 
+
 
 ## Project
 - My idea behind Remod is to make the web more engaging. 
