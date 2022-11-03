@@ -1,6 +1,8 @@
 # Remod [BETA]
 Engage in social interactions anywhere on the web... with anyone !
 
+![alt text](https://imgur.com/jv1GYyi.jpg)
+
 ## Project
 - My idea behind Remod is to make the web more engaging. 
 - I believe we can do so by making it more modular, letting anyone add contributions (code, text, designs...) to any web pages and share them with the other participants of the network. 
