@@ -1,6 +1,9 @@
 # Remod [BETA]
 Engage in social interactions anywhere on the web... with anyone !
 
+NOTE: I stopped the server for now so the extension is not working at the moment.
+
+
 <img src="https://imgur.com/bBgmltf.jpg" width="15%"></img> <img src="https://imgur.com/i4RRsuD.jpg" width="15%"></img> <img src="https://imgur.com/ZXyNCKG.jpg" width="15%"></img> <img src="https://imgur.com/QiriaLY.jpg" width="15%"></img> <img src="https://imgur.com/jv1GYyi.jpg" width="15%"></img> 
 
 
@@ -17,25 +20,7 @@ You can a list of other users activity here -> http://13.38.128.167:5000/
 
 
 ## How to use it
-The extension is currently waiting to be published on the Chrome web store (which can take weeks).
-If you are familiar with using the terminal you can follow the following steps:
-
-### 1. Clone the repo and generate the build folder with the extension code:
-- You first need to have git & node installed. 
-- Then:
-```
-git clone https://github.com/eBoreal/remod-browser-extension.git
-cd remod-browser-extension
-npm i
-npm run build
-```
-
-### 2. Load the extension into your chrome browser
-- Go to chrome://extensions/
-- Turn developer mode on
-- Click on "Load unpacked extension" and select the build folder under remod-browser-extension/
-- Pin the extension to your taskbar for better user friendliness :)
-- Click on extension Icon to create an account and enable view & write modes  
+The extension is accessible on the Chrome web store: https://chrome.google.com/webstore/detail/remod/hpgmkopbheglhcbjncbilkfijdnjbbod
 
 
 Notes: 
